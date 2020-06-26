@@ -6,7 +6,7 @@ import "./styles/global.scss";
 
 ReactDOM.render(
     <div>
-        <LandingPage appName={"REACT - TYPESCRIPT - SCSS BOILERPLATE"}/>
+        <LandingPage appName={"REACT - TYPESCRIPT - SCSS BOILERPLATE 2.0"}/>
     </div>,
     document.getElementById("app"),
 );

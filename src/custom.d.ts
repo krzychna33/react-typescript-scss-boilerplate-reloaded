@@ -8,6 +8,16 @@ declare module "*.png" {
     export default content;
 }
 
+declare module "*.jpg" {
+    const content: string;
+    export default content;
+}
+
+declare module "*.jpeg" {
+    const content: string;
+    export default content;
+}
+
 declare module '*.scss' {
     const exports: { [exportName: string]: string };
     export = exports;

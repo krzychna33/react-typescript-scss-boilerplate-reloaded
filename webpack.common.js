@@ -48,7 +48,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'public/index.html',
-            title: 'Raisemana app'
+            title: 'Boilerplate 2.0 app'
         }),
         new Dotenv()
     ]
